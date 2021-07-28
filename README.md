@@ -71,7 +71,6 @@ To run tests, run:
 
 
 ## test results
-Ran 48 tests in 0.031s
     Name                                             Stmts   Miss Branch BrPart  Cover
     ----------------------------------------------------------------------------------
     app/__init__.py                                     12      0      0      0   100%
@@ -95,6 +94,7 @@ Ran 48 tests in 0.031s
     app/tests/test_rover.py                             14      0      0      0   100%
     ----------------------------------------------------------------------------------
     TOTAL                                              522     37     70     16    91%
+    Ran 48 tests in 0.031s
 
 As you can see coverage is good, but there are some inherited code that I did not test and also some complains
 from the coverage that are false positives. With a little effort It would be easy to raise the coverage meassure. 
