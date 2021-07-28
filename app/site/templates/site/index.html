@@ -1,0 +1,26 @@
+{% extends "site/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+  <div class="mainContainer">
+    <div class="container commandListContainer">
+	    <div class="commandList">
+		    <label for="commands">
+			    Please type commands here:
+		    </label>
+		    <textarea id="commandsInput" class="commandListTextarea" name="commands">5 5
+1 2 N
+LML</textarea>
+		    <button onclick="sendCommand()">
+			    Process
+		    </button>
+	    </div>
+    </div>
+    <div class="container resultsContainer">
+	<h2>Movement list</h2>
+	<div id="results">
+	</div>
+    </div>
+  </div>
+{% endblock %}

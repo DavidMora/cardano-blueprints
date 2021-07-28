@@ -1,0 +1,25 @@
+.mainContainer {
+	display: flex;
+}
+.container {
+  height: 100vh;
+  padding: 2em;
+}
+
+.commandListContainer {
+  width: 30vw;
+}
+
+.commandList {
+  display: flex;
+  flex-direction: column;
+}
+
+.commandListTextarea {
+  height: 85vh;
+}
+.resultsContainer {
+  width: 70vw;
+}
+
+
